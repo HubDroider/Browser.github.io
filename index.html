@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browser</title>
+  <link rel="icon" href="BrowserIcon3.ico" type="image/x-icon">
+  <style>
+    /* Stili globali */
+    body {
+      background-color: #212121;
+      color: #fff;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+	  overflow
+    }
+    
+    * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+        /* Testo in alto */
+    .testo-alto {
+      text-align: center; /* Center text horizontally */
+      padding: 20px; /* Add some padding for spacing */
+      font-size: 24px; /* Adjust font size as needed */
+    }
+	
+    /* Contenitore principale */
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex; /* Added flexbox for vertical layout */
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center elements horizontally */
+    }
+    
+    /* Barra di ricerca */
+    .ricerca {
+      margin: 20px auto; /* Add margin for spacing and center horizontally */
+      width: 50%; /* Adjust width as needed */
+    }
+    
+    .ricerca input[type="text"] {
+      width: 100%; /* Stretch input to full width */
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    /* Pulsanti */
+    .pulsanti {
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .pulsante {
+      margin: 10px;
+      padding: 20px 40px;
+      border-radius: 50px;
+      background-color: #fff;
+      color: #000;
+      font-size: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    /* Aumenta la dimensione dei pulsanti */
+    .pulsante {
+      width: 250px;
+      height: 100px;
+    }
+    
+    .pulsante:hover {
+      background-color: #ccc;
+    }
+    
+    /* Media query per schermi di piccole dimensioni */
+    @media (max-width: 768px) {
+      .pulsante {
+        width: 200px;
+        height: 120px;
+      }
+	  
+  </style>
+</head>
+<body>
+  <div class="testo-alto">
+    <h1>Browser , Is A Lightweight Browser Free</h1>
+	<h2>Version : 0.2A2</h2>
+	<a href="https://github.com/HubDroider/Browser.github.io"<h3>Browser Site Github Page</h3></a>
+	<h4>In The Future It May Become OpenSource</h4>
+  </div>
+
+  <div class="container">
+    <div class="ricerca">
+      <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search With Google ( Press Enter To Search )">
+      </form>
+    </div>
+    
+    <div class="pulsanti">
+      <a href="https://github.com/HubDroider/Browser.github.io/releases/download/Publish/Browser2.zip" class="pulsante">Windows Vista, 7, 8x, 10 & 11ㅤㅤ</a>
+      <button class="pulsante">You Need .Net Framework 4.7.2</button>
+    </div>
+  </div>
+</body>
+</html>
+
+Ops , You Scrolled ?
